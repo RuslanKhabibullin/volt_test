@@ -1,4 +1,4 @@
-class PaginatedPostsQuery
+class PaginatedResourceQuery
   PER_PAGE = 10
 
   attr_reader :relation, :page, :per_page
@@ -12,7 +12,6 @@ class PaginatedPostsQuery
 
   def all
     relation
-      .includes(:author)
       .order(published_at: :desc)
       .page(page)
       .per(per_page)

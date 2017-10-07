@@ -1,15 +1,14 @@
-# Posts API
+# Comments API
 
-## Unauthorized user create post
+## Comment create with invalid data
 
-### POST api/v1/posts
+### POST api/v1/posts/:post_id/comments
 
 ### Parameters
 
 | Name | Description | Required | Scope |
 |------|-------------|----------|-------|
-| title | Post title | true |  |
-| body | Post body | true |  |
+| body | Comment body | true |  |
 | published_at | Published at datetime(default - current datetime) | false |  |
 
 ### Request
@@ -20,11 +19,11 @@
 
 #### Route
 
-<pre>POST api/v1/posts</pre>
+<pre>POST api/v1/posts/139/comments</pre>
 
 #### Body
 
-<pre>title=Nulla+est+odit+rerum+et+repellendus.&body=Test</pre>
+<pre>body=</pre>
 
 ### Response
 
@@ -34,10 +33,12 @@
 
 #### Status
 
-<pre>401 Unauthorized</pre>
+<pre>422 Unprocessable Entity</pre>
 
 #### Body
 
 <pre>{
-  "error": "You need to sign in or sign up before continuing."
+  "errors": [
+    "Body can't be blank"
+  ]
 }</pre>

@@ -1,6 +1,6 @@
 require "rails_helper"
 
-describe PaginatedPostsQuery do
+describe PaginatedResourceQuery do
   subject(:query) { described_class.new(Post.all, pagination_params) }
 
   let!(:new_post) { create :post }

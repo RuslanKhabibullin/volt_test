@@ -24,7 +24,7 @@
 
 #### Body
 
-<pre>email=arianna%40blocknikolaus.info&password=123456&nickname=John</pre>
+<pre>email=neal%40abshire.io&password=123456&nickname=John</pre>
 
 ### Response
 
@@ -40,10 +40,10 @@
 
 <pre>{
   "data": {
-    "id": "180",
+    "id": "282",
     "type": "users",
     "attributes": {
-      "email": "arianna@blocknikolaus.info",
+      "email": "neal@abshire.io",
       "nickname": "John"
     }
   }

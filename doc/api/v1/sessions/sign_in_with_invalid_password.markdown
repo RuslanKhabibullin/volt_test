@@ -23,7 +23,7 @@
 
 #### Body
 
-<pre>email=golda%40kling.com&password=</pre>
+<pre>email=octavia.schowalter%40blanda.info&password=</pre>
 
 ### Response
 

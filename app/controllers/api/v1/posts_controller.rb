@@ -31,7 +31,11 @@ module Api
       end
 
       def paginated_posts
-        PaginatedPostsQuery.new(Post.all, page: params[:page], per_page: params[:per_page]).all
+        PaginatedResourceQuery.new(
+          Post.includes(:author),
+          page: params[:page],
+          per_page: params[:per_page]
+        ).all
       end
     end
   end

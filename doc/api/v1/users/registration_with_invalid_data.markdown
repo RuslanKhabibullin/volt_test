@@ -24,7 +24,7 @@
 
 #### Body
 
-<pre>email=damian.lind%40fisher.co&password=123456</pre>
+<pre>email=kelley%40paucek.net&password=123456</pre>
 
 ### Response
 

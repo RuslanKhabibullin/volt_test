@@ -1,6 +1,33 @@
 {
   "resources": [
     {
+      "name": "Comments",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Comment create with valid data",
+          "link": "comments/comment_create_with_valid_data.json",
+          "groups": "all",
+          "route": "api/v1/posts/:post_id/comments",
+          "method": "post"
+        },
+        {
+          "description": "Comment create with invalid data",
+          "link": "comments/comment_create_with_invalid_data.json",
+          "groups": "all",
+          "route": "api/v1/posts/:post_id/comments",
+          "method": "post"
+        },
+        {
+          "description": "Get comments",
+          "link": "comments/get_comments.json",
+          "groups": "all",
+          "route": "api/v1/posts/:post_id/comments?page=:page&per_page=:per_page",
+          "method": "get"
+        }
+      ]
+    },
+    {
       "name": "Posts",
       "explanation": null,
       "examples": [
@@ -26,8 +53,8 @@
           "method": "post"
         },
         {
-          "description": "Get wallpapers",
-          "link": "posts/get_wallpapers.json",
+          "description": "Get posts",
+          "link": "posts/get_posts.json",
           "groups": "all",
           "route": "api/v1/posts?page=:page&per_page=:per_page",
           "method": "get"

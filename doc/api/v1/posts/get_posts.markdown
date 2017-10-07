@@ -1,6 +1,6 @@
 # Posts API
 
-## Get wallpapers
+## Get posts
 
 ### GET api/v1/posts?page=:page&amp;per_page=:per_page
 ### Request
@@ -33,13 +33,13 @@ per_page: 1</pre>
 <pre>{
   "data": [
     {
-      "id": "83",
+      "id": "142",
       "type": "posts",
       "attributes": {
-        "title": "Neque sed culpa consectetur accusamus.",
-        "body": "Et quo voluptatibus ipsa est quis quaerat.",
-        "published_at": "2017-10-07T21:36:18.721Z",
-        "author_nickname": "Eliza Bode"
+        "title": "Et ipsa itaque distinctio eum sed quos enim.",
+        "body": "Quia in necessitatibus quo minus voluptatem sequi culpa cum.",
+        "published_at": "2017-10-07T22:30:22.737Z",
+        "author_nickname": "Dr. Fiona Moen"
       }
     }
   ],

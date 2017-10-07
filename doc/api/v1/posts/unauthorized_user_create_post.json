@@ -28,7 +28,7 @@
     {
       "request_method": "POST",
       "request_path": "api/v1/posts",
-      "request_body": "title=Error+eius+iusto+eum+temporibus.&body=Test",
+      "request_body": "title=Nulla+est+odit+rerum+et+repellendus.&body=Test",
       "request_headers": {
       },
       "request_query_parameters": {
