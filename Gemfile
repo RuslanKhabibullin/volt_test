@@ -27,7 +27,7 @@ gem "pundit"
 group :test do
   gem "database_cleaner"
   gem "email_spec"
-  gem "shoulda-matchers", require: false
+  gem "shoulda-matchers"
   gem "json_spec"
 end
 
