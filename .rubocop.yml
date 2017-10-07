@@ -73,3 +73,6 @@ RSpec/ExampleLength:
 
 RSpec/LetSetup:
   Enabled: false
+
+RSpec/HookArgument:
+  Enabled: false
