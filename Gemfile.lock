@@ -312,7 +312,6 @@ DEPENDENCIES
   pundit
   rack-cors
   rails (~> 5.1.1)
-  responders
   rspec-its
   rspec-rails
   rspec_api_documentation
