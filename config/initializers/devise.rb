@@ -3,7 +3,7 @@ Devise.setup do |config|
 
   require "devise/orm/active_record"
 
-  # config.secret_key = ''
+  config.secret_key = ENV.fetch("DEVISE_SECRET_KEY", "default_key")
 
   config.case_insensitive_keys = [:email]
 
