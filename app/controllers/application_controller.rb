@@ -1,8 +1,11 @@
-require "application_responder"
-
 class ApplicationController < ActionController::Base
-  self.responder = ApplicationResponder
+  include Authentication
+
   respond_to :json
 
-  protect_from_forgery with: :exception
+  protected
+
+  def render_errors_for(entity)
+    render json: { errors: entity.errors.full_messages }, status: :unprocessable_entity
+  end
 end

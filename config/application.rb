@@ -6,6 +6,8 @@ Bundler.require(*Rails.groups)
 
 module VoltTest
   class Application < Rails::Application
+    config.api_only = true
+
     config.eager_load_paths << Rails.root.join("lib")
 
     config.app_generators.scaffold_controller :responders_controller

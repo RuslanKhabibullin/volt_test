@@ -10,9 +10,7 @@ gem "pg"
 gem "puma", "~> 3.7"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", ">= 1.3.0"
-
 gem "coffee-rails", "~> 4.2"
-gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
 
 # Other gems
@@ -40,7 +38,6 @@ group :development, :test do
   gem "capybara", "~> 2.13"
   gem "selenium-webdriver"
   gem "faker"
-  gem "responders"
   gem "factory_girl_rails"
   gem "rspec-rails"
   gem "rspec-its"
