@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       resources :posts, only: %i[create index show] do
         resources :comments, only: %i[create index]
       end
+      post "reports/by_author" => "reports#by_author"
     end
   end
 end

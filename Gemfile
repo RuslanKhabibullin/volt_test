@@ -17,14 +17,17 @@ gem "kaminari", git: "https://github.com/amatsuda/kaminari"
 
 # Other gems
 
+gem "arel"
 gem "rack-cors"
 gem "active_model_serializers"
 gem "decent_exposure"
 gem "devise"
 gem "dotenv-rails"
+gem "delayed_job_active_record"
 gem "interactor"
 gem "jwt"
 gem "pundit"
+gem "slim-rails"
 
 group :test do
   gem "database_cleaner"
