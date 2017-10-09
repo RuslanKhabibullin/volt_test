@@ -16,7 +16,7 @@ describe ReportsQuery do
     let(:ends_at) { Time.current }
 
     it "returns report for given period" do
-      expect(query.all).to eq([john, bill])
+      expect(query.all.to_a).to eq([john, bill])
     end
 
     context "when selected another range" do

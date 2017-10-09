@@ -8,12 +8,13 @@ class ReportsQuery
   end
 
   def all
-    User.find_by_sql(select_query.to_sql)
+    User.from(report_table_query.to_sql).order("posts_count + comments_count / 10 DESC")
   end
 
   private
 
-  def select_query
+  # rubocop:disable Metrics/AbcSize
+  def report_table_query
     users
       .project(
         users[:id],
@@ -22,6 +23,7 @@ class ReportsQuery
         relation_count_query(posts).as("posts_count"),
         relation_count_query(comments).as("comments_count")
       )
+      .as(Arel.sql("users"))
   end
 
   def relation_count_query(relation)
