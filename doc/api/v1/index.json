@@ -10,13 +10,6 @@
           "groups": "all",
           "route": "api/v1/avatar",
           "method": "post"
-        },
-        {
-          "description": "Get current user avatar",
-          "link": "avatar/get_current_user_avatar.json",
-          "groups": "all",
-          "route": "api/v1/avatar",
-          "method": "get"
         }
       ]
     },

@@ -5,5 +5,9 @@ set -e
 bin/rubocop
 bin/brakeman --quiet --skip-libs --exit-on-warn
 
+bin/rails coffeelint
+bin/scss-lint
+bin/slim-lint app/views
+
 bin/bundle-audit update
 bin/bundle-audit

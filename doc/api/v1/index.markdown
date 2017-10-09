@@ -4,7 +4,6 @@
 ## Avatar
 
 * [Avatar create](avatar/avatar_create.markdown)
-* [Get current user avatar](avatar/get_current_user_avatar.markdown)
 
 ## Comments
 

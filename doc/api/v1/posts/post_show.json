@@ -14,7 +14,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "api/v1/posts/32",
+      "request_path": "api/v1/posts/200",
       "request_body": null,
       "request_headers": {
       },
@@ -23,7 +23,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": \"32\",\n    \"type\": \"posts\",\n    \"attributes\": {\n      \"title\": \"Natus eos temporibus et.\",\n      \"body\": \"Ipsam aliquid quo aperiam quaerat.\",\n      \"published_at\": \"2017-10-09T12:25:33.930Z\",\n      \"author_nickname\": \"Mathilde Mills III\"\n    }\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": \"200\",\n    \"type\": \"posts\",\n    \"attributes\": {\n      \"title\": \"Doloremque sequi sint qui eum delectus fugiat.\",\n      \"body\": \"Architecto dolores perferendis quia facilis.\",\n      \"published_at\": \"2017-10-09T20:27:12.590Z\",\n      \"author_nickname\": \"Nico Trantow Jr.\"\n    }\n  }\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8"
       },

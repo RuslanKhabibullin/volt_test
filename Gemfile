@@ -27,7 +27,10 @@ gem "delayed_job_active_record"
 gem "interactor"
 gem "jwt"
 gem "pundit"
+gem "jquery-rails"
+gem "bootstrap-sass"
 gem "slim-rails"
+gem "skim"
 gem "faker"
 gem "factory_girl_rails"
 gem "carrierwave", "~> 1.0"
@@ -40,19 +43,22 @@ group :test do
   gem "shoulda-matchers"
   gem "json_spec"
   gem "webmock"
+  gem "capybara", "~> 2.13"
+  gem "capybara-webkit"
 end
 
 group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
   gem "brakeman", require: false
   gem "bundler-audit", require: false
-  gem "capybara", "~> 2.13"
-  gem "selenium-webdriver"
   gem "rspec-rails"
   gem "rspec-its"
   gem "rubocop", require: false
   gem "rubocop-rspec", require: false
   gem "rspec_api_documentation"
+  gem "coffeelint"
+  gem "scss_lint", require: false
+  gem "slim_lint", require: false
 end
 
 group :development do

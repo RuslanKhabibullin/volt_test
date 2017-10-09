@@ -22,7 +22,7 @@
   "requests": [
     {
       "request_method": "POST",
-      "request_path": "api/v1/posts/28/comments",
+      "request_path": "api/v1/posts/196/comments",
       "request_body": "body=",
       "request_headers": {
       },

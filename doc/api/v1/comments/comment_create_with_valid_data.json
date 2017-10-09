@@ -22,7 +22,7 @@
   "requests": [
     {
       "request_method": "POST",
-      "request_path": "api/v1/posts/27/comments",
+      "request_path": "api/v1/posts/195/comments",
       "request_body": "body=Test",
       "request_headers": {
       },
@@ -31,7 +31,7 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"data\": {\n    \"id\": \"5\",\n    \"type\": \"comments\",\n    \"attributes\": {\n      \"body\": \"Test\",\n      \"published_at\": \"2017-10-09T12:25:33.633Z\",\n      \"author_id\": 64,\n      \"post_id\": 27\n    }\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": \"33\",\n    \"type\": \"comments\",\n    \"attributes\": {\n      \"body\": \"Test\",\n      \"published_at\": \"2017-10-09T20:27:12.297Z\",\n      \"author_id\": 341,\n      \"post_id\": 195\n    }\n  }\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8"
       },

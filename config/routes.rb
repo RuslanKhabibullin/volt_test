@@ -11,7 +11,9 @@ Rails.application.routes.draw do
         resources :comments, only: %i[create index]
       end
       post "reports/by_author" => "reports#by_author"
-      resource :avatar, only: %i[create show]
+      resource :avatar, only: :create
     end
   end
+
+  root "static_pages#home"
 end

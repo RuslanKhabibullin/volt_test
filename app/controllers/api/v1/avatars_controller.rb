@@ -5,14 +5,10 @@ module Api
 
       def create
         if current_user.update_attributes(avatar_params)
-          head :ok
+          render json: current_user.avatar, status: :created
         else
           render_errors_for(current_user)
         end
-      end
-
-      def show
-        render json: current_user.avatar
       end
 
       private

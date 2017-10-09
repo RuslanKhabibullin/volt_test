@@ -24,7 +24,7 @@
 
 #### Body
 
-<pre>email=consuelo.kuhn%40larkin.name&password=123456</pre>
+<pre>email=antoinette_conn%40zulauf.com&password=123456</pre>
 
 ### Response
 

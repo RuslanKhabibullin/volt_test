@@ -34,9 +34,17 @@ Content-Length: 35534
 
 #### Headers
 
-<pre>Content-Type: application/json</pre>
+<pre>Content-Type: application/json; charset=utf-8</pre>
 
 #### Status
 
-<pre>200 OK</pre>
+<pre>201 Created</pre>
 
+#### Body
+
+<pre>{
+  "url": "https://volt-part2.s3.amazonaws.com/uploads/user/avatar/340/dc6678f2-81b8-45fe-9281-cb07eddad5f9.png",
+  "thumb": {
+    "url": "https://volt-part2.s3.amazonaws.com/uploads/user/avatar/340/thumb_dc6678f2-81b8-45fe-9281-cb07eddad5f9.png"
+  }
+}</pre>

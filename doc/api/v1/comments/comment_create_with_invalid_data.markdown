@@ -19,7 +19,7 @@
 
 #### Route
 
-<pre>POST api/v1/posts/28/comments</pre>
+<pre>POST api/v1/posts/196/comments</pre>
 
 #### Body
 

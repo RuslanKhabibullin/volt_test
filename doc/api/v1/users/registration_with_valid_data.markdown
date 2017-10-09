@@ -24,7 +24,7 @@
 
 #### Body
 
-<pre>email=lilyan%40kodenesik.biz&password=123456&nickname=John</pre>
+<pre>email=kennedi.ruel%40cronapollich.com&password=123456&nickname=John</pre>
 
 ### Response
 
@@ -40,10 +40,10 @@
 
 <pre>{
   "data": {
-    "id": "74",
+    "id": "351",
     "type": "users",
     "attributes": {
-      "email": "lilyan@kodenesik.biz",
+      "email": "kennedi.ruel@cronapollich.com",
       "nickname": "John"
     }
   }

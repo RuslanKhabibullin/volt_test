@@ -29,7 +29,7 @@
     {
       "request_method": "POST",
       "request_path": "api/v1/users",
-      "request_body": "email=lilyan%40kodenesik.biz&password=123456&nickname=John",
+      "request_body": "email=kennedi.ruel%40cronapollich.com&password=123456&nickname=John",
       "request_headers": {
       },
       "request_query_parameters": {
@@ -37,7 +37,7 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"data\": {\n    \"id\": \"74\",\n    \"type\": \"users\",\n    \"attributes\": {\n      \"email\": \"lilyan@kodenesik.biz\",\n      \"nickname\": \"John\"\n    }\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": \"351\",\n    \"type\": \"users\",\n    \"attributes\": {\n      \"email\": \"kennedi.ruel@cronapollich.com\",\n      \"nickname\": \"John\"\n    }\n  }\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8"
       },

@@ -82,3 +82,9 @@ RSpec/VerifiedDoubles:
 
 RSpec/MessageSpies:
   Enabled: false
+
+Capybara/FeatureMethods:
+  Enabled: false
+
+Naming:
+  Enabled: false

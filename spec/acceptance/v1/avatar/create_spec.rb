@@ -14,7 +14,8 @@ resource "Avatar" do
     end
 
     example_request "Avatar create" do
-      expect(response_status).to be 200
+      expect(response_status).to be 201
+      expect(response).to be_a_avatar_representation
     end
   end
 end

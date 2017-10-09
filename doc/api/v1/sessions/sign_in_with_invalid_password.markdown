@@ -23,7 +23,7 @@
 
 #### Body
 
-<pre>email=jaquelin.hintz%40beckerlangosh.io&password=</pre>
+<pre>email=chester%40rutherfordhane.com&password=</pre>
 
 ### Response
 

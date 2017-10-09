@@ -11,7 +11,7 @@
 
 #### Route
 
-<pre>GET api/v1/posts/32</pre>
+<pre>GET api/v1/posts/200</pre>
 
 ### Response
 
@@ -27,13 +27,13 @@
 
 <pre>{
   "data": {
-    "id": "32",
+    "id": "200",
     "type": "posts",
     "attributes": {
-      "title": "Natus eos temporibus et.",
-      "body": "Ipsam aliquid quo aperiam quaerat.",
-      "published_at": "2017-10-09T12:25:33.930Z",
-      "author_nickname": "Mathilde Mills III"
+      "title": "Doloremque sequi sint qui eum delectus fugiat.",
+      "body": "Architecto dolores perferendis quia facilis.",
+      "published_at": "2017-10-09T20:27:12.590Z",
+      "author_nickname": "Nico Trantow Jr."
     }
   }
 }</pre>
