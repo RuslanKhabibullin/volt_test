@@ -14,7 +14,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "api/v1/posts/143",
+      "request_path": "api/v1/posts/410",
       "request_body": null,
       "request_headers": {
       },
@@ -23,7 +23,7 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"data\": {\n    \"id\": \"143\",\n    \"type\": \"posts\",\n    \"attributes\": {\n      \"title\": \"Tempora ut illo et sit adipisci et voluptatum.\",\n      \"body\": \"Porro sunt eligendi at nam est tempora.\",\n      \"published_at\": \"2017-10-07T22:30:22.766Z\",\n      \"author_nickname\": \"Mckenna Ferry\"\n    }\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": \"410\",\n    \"type\": \"posts\",\n    \"attributes\": {\n      \"title\": \"Laboriosam aperiam nam cumque aut voluptatum.\",\n      \"body\": \"Beatae deserunt ex similique sunt assumenda sit eaque.\",\n      \"published_at\": \"2017-10-09T07:36:12.295Z\",\n      \"author_nickname\": \"Torey Smith Jr.\"\n    }\n  }\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8"
       },

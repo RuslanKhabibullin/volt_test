@@ -1,24 +1,25 @@
 {
-  "resource": "Posts",
+  "resource": "Reports",
   "resource_explanation": null,
   "http_method": "POST",
-  "route": "api/v1/posts",
+  "route": "api/v1/reports/by_author",
   "description": "Post create with valid data",
   "explanation": null,
   "parameters": [
     {
       "required": true,
-      "name": "title",
-      "description": "Post title"
+      "name": "email",
+      "description": "Email"
     },
     {
       "required": true,
-      "name": "body",
-      "description": "Post body"
+      "name": "start_date",
+      "description": "Start date(example: 2017-01-10)"
     },
     {
-      "name": "published_at",
-      "description": "Published at datetime(default - current datetime)"
+      "required": true,
+      "name": "end_date",
+      "description": "End date"
     }
   ],
   "response_fields": [
@@ -27,8 +28,8 @@
   "requests": [
     {
       "request_method": "POST",
-      "request_path": "api/v1/posts",
-      "request_body": "title=Deserunt+et+ipsam+perspiciatis.&body=Test",
+      "request_path": "api/v1/reports/by_author",
+      "request_body": null,
       "request_headers": {
       },
       "request_query_parameters": {
@@ -36,7 +37,7 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"data\": {\n    \"id\": \"408\",\n    \"type\": \"posts\",\n    \"attributes\": {\n      \"title\": \"Deserunt et ipsam perspiciatis.\",\n      \"body\": \"Test\",\n      \"published_at\": \"2017-10-09T07:36:12.194Z\",\n      \"author_nickname\": \"Stone Will DDS\"\n    }\n  }\n}",
+      "response_body": "{\n  \"message\": \"Report generation started\"\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8"
       },

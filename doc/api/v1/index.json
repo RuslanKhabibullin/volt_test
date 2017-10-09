@@ -69,6 +69,26 @@
       ]
     },
     {
+      "name": "Reports",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Post create with valid data",
+          "link": "reports/post_create_with_valid_data.json",
+          "groups": "all",
+          "route": "api/v1/reports/by_author",
+          "method": "post"
+        },
+        {
+          "description": "Unauthorized user generate report",
+          "link": "reports/unauthorized_user_generate_report.json",
+          "groups": "all",
+          "route": "api/v1/reports/by_author",
+          "method": "post"
+        }
+      ]
+    },
+    {
       "name": "Sessions",
       "explanation": null,
       "examples": [

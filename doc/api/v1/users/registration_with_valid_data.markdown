@@ -24,7 +24,7 @@
 
 #### Body
 
-<pre>email=neal%40abshire.io&password=123456&nickname=John</pre>
+<pre>email=sydni.ebert%40ledner.co&password=123456&nickname=John</pre>
 
 ### Response
 
@@ -40,10 +40,10 @@
 
 <pre>{
   "data": {
-    "id": "282",
+    "id": "653",
     "type": "users",
     "attributes": {
-      "email": "neal@abshire.io",
+      "email": "sydni.ebert@ledner.co",
       "nickname": "John"
     }
   }

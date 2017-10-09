@@ -1,16 +1,16 @@
-# Posts API
+# Reports API
 
-## Unauthorized user create post
+## Unauthorized user generate report
 
-### POST api/v1/posts
+### POST api/v1/reports/by_author
 
 ### Parameters
 
 | Name | Description | Required | Scope |
 |------|-------------|----------|-------|
-| title | Post title | true |  |
-| body | Post body | true |  |
-| published_at | Published at datetime(default - current datetime) | false |  |
+| email | Email | true |  |
+| start_date | Start date(example: 2017-01-10) | true |  |
+| end_date | End date | true |  |
 
 ### Request
 
@@ -20,11 +20,7 @@
 
 #### Route
 
-<pre>POST api/v1/posts</pre>
-
-#### Body
-
-<pre>title=Voluptatem+voluptates+consectetur+cupiditate+atque.&body=Test</pre>
+<pre>POST api/v1/reports/by_author</pre>
 
 ### Response
 

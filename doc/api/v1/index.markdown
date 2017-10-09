@@ -15,6 +15,11 @@
 * [Get posts](posts/get_posts.markdown)
 * [Post show](posts/post_show.markdown)
 
+## Reports
+
+* [Post create with valid data](reports/post_create_with_valid_data.markdown)
+* [Unauthorized user generate report](reports/unauthorized_user_generate_report.markdown)
+
 ## Sessions
 
 * [Sign in with valid password](sessions/sign_in_with_valid_password.markdown)

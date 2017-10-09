@@ -29,7 +29,7 @@
     {
       "request_method": "POST",
       "request_path": "api/v1/users",
-      "request_body": "email=neal%40abshire.io&password=123456&nickname=John",
+      "request_body": "email=sydni.ebert%40ledner.co&password=123456&nickname=John",
       "request_headers": {
       },
       "request_query_parameters": {
@@ -37,7 +37,7 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"data\": {\n    \"id\": \"282\",\n    \"type\": \"users\",\n    \"attributes\": {\n      \"email\": \"neal@abshire.io\",\n      \"nickname\": \"John\"\n    }\n  }\n}",
+      "response_body": "{\n  \"data\": {\n    \"id\": \"653\",\n    \"type\": \"users\",\n    \"attributes\": {\n      \"email\": \"sydni.ebert@ledner.co\",\n      \"nickname\": \"John\"\n    }\n  }\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8"
       },

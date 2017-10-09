@@ -23,7 +23,7 @@
 
 #### Body
 
-<pre>email=emil.predovic%40littel.co&password=123456</pre>
+<pre>email=abbey%40johns.com&password=123456</pre>
 
 ### Response
 
@@ -39,10 +39,10 @@
 
 <pre>{
   "data": {
-    "id": "1507415422",
+    "id": "1507534572",
     "type": "tokens",
     "attributes": {
-      "access_token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOjI4MCwiaWF0IjoxNTA3NDE1NDIyLCJleHAiOjE1MDc0MzcwMjJ9.9aaEzx6lvKzBpHxL6tf_P-53e5R00Sf5fiHN9uTOwow",
+      "access_token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOjY1MSwiaWF0IjoxNTA3NTM0NTcyLCJleHAiOjE1MDc1NTYxNzJ9.zYrEfhVwXbx2IGDT3Y6rH-c2PqzX9J_UwApRAUOuSck",
       "token_type": "Bearer"
     }
   }

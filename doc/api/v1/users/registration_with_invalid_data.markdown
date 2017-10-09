@@ -24,7 +24,7 @@
 
 #### Body
 
-<pre>email=kelley%40paucek.net&password=123456</pre>
+<pre>email=tad_emmerich%40lowepurdy.io&password=123456</pre>
 
 ### Response
 

@@ -11,7 +11,7 @@
 
 #### Route
 
-<pre>GET api/v1/posts/143</pre>
+<pre>GET api/v1/posts/410</pre>
 
 ### Response
 
@@ -27,13 +27,13 @@
 
 <pre>{
   "data": {
-    "id": "143",
+    "id": "410",
     "type": "posts",
     "attributes": {
-      "title": "Tempora ut illo et sit adipisci et voluptatum.",
-      "body": "Porro sunt eligendi at nam est tempora.",
-      "published_at": "2017-10-07T22:30:22.766Z",
-      "author_nickname": "Mckenna Ferry"
+      "title": "Laboriosam aperiam nam cumque aut voluptatum.",
+      "body": "Beatae deserunt ex similique sunt assumenda sit eaque.",
+      "published_at": "2017-10-09T07:36:12.295Z",
+      "author_nickname": "Torey Smith Jr."
     }
   }
 }</pre>
