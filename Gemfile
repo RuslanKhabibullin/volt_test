@@ -28,6 +28,8 @@ gem "interactor"
 gem "jwt"
 gem "pundit"
 gem "slim-rails"
+gem "faker"
+gem "factory_girl_rails"
 
 group :test do
   gem "database_cleaner"
@@ -42,8 +44,6 @@ group :development, :test do
   gem "bundler-audit", require: false
   gem "capybara", "~> 2.13"
   gem "selenium-webdriver"
-  gem "faker"
-  gem "factory_girl_rails"
   gem "rspec-rails"
   gem "rspec-its"
   gem "rubocop", require: false
