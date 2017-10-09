@@ -1,6 +1,11 @@
 # API Documentation
 
 
+## Avatar
+
+* [Avatar create](avatar/avatar_create.markdown)
+* [Get current user avatar](avatar/get_current_user_avatar.markdown)
+
 ## Comments
 
 * [Comment create with valid data](comments/comment_create_with_valid_data.markdown)

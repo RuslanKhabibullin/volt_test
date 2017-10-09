@@ -11,7 +11,7 @@
 
 #### Route
 
-<pre>GET api/v1/posts/410</pre>
+<pre>GET api/v1/posts/32</pre>
 
 ### Response
 
@@ -27,13 +27,13 @@
 
 <pre>{
   "data": {
-    "id": "410",
+    "id": "32",
     "type": "posts",
     "attributes": {
-      "title": "Laboriosam aperiam nam cumque aut voluptatum.",
-      "body": "Beatae deserunt ex similique sunt assumenda sit eaque.",
-      "published_at": "2017-10-09T07:36:12.295Z",
-      "author_nickname": "Torey Smith Jr."
+      "title": "Natus eos temporibus et.",
+      "body": "Ipsam aliquid quo aperiam quaerat.",
+      "published_at": "2017-10-09T12:25:33.930Z",
+      "author_nickname": "Mathilde Mills III"
     }
   }
 }</pre>

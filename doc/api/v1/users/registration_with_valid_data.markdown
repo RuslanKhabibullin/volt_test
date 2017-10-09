@@ -24,7 +24,7 @@
 
 #### Body
 
-<pre>email=sydni.ebert%40ledner.co&password=123456&nickname=John</pre>
+<pre>email=lilyan%40kodenesik.biz&password=123456&nickname=John</pre>
 
 ### Response
 
@@ -40,10 +40,10 @@
 
 <pre>{
   "data": {
-    "id": "653",
+    "id": "74",
     "type": "users",
     "attributes": {
-      "email": "sydni.ebert@ledner.co",
+      "email": "lilyan@kodenesik.biz",
       "nickname": "John"
     }
   }

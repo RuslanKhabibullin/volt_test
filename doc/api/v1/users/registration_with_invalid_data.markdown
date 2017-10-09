@@ -24,7 +24,7 @@
 
 #### Body
 
-<pre>email=tad_emmerich%40lowepurdy.io&password=123456</pre>
+<pre>email=consuelo.kuhn%40larkin.name&password=123456</pre>
 
 ### Response
 

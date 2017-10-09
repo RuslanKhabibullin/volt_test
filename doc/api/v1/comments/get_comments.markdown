@@ -11,7 +11,7 @@
 
 #### Route
 
-<pre>GET api/v1/posts/407/comments?page=1&amp;per_page=1</pre>
+<pre>GET api/v1/posts/29/comments?page=1&amp;per_page=1</pre>
 
 #### Query Parameters
 
@@ -33,13 +33,13 @@ per_page: 1</pre>
 <pre>{
   "data": [
     {
-      "id": "49",
+      "id": "6",
       "type": "comments",
       "attributes": {
-        "body": "Illum mollitia provident quia architecto vel cupiditate.",
-        "published_at": "2017-10-09T07:36:12.151Z",
-        "author_id": 645,
-        "post_id": 407
+        "body": "Ratione placeat rerum a.",
+        "published_at": "2017-10-09T12:25:33.776Z",
+        "author_id": 66,
+        "post_id": 29
       }
     }
   ],

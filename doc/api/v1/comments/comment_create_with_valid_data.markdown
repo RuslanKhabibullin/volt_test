@@ -19,7 +19,7 @@
 
 #### Route
 
-<pre>POST api/v1/posts/405/comments</pre>
+<pre>POST api/v1/posts/27/comments</pre>
 
 #### Body
 
@@ -39,13 +39,13 @@
 
 <pre>{
   "data": {
-    "id": "48",
+    "id": "5",
     "type": "comments",
     "attributes": {
       "body": "Test",
-      "published_at": "2017-10-09T07:36:11.556Z",
-      "author_id": 643,
-      "post_id": 405
+      "published_at": "2017-10-09T12:25:33.633Z",
+      "author_id": 64,
+      "post_id": 27
     }
   }
 }</pre>

@@ -23,7 +23,7 @@
 
 #### Body
 
-<pre>email=abbey%40johns.com&password=123456</pre>
+<pre>email=flavio%40frami.biz&password=123456</pre>
 
 ### Response
 
@@ -39,10 +39,10 @@
 
 <pre>{
   "data": {
-    "id": "1507534572",
+    "id": "1507551934",
     "type": "tokens",
     "attributes": {
-      "access_token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOjY1MSwiaWF0IjoxNTA3NTM0NTcyLCJleHAiOjE1MDc1NTYxNzJ9.zYrEfhVwXbx2IGDT3Y6rH-c2PqzX9J_UwApRAUOuSck",
+      "access_token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOjcyLCJpYXQiOjE1MDc1NTE5MzQsImV4cCI6MTUwNzU3MzUzNH0.Jr4lXXp7Elh1yjHoK28UCM0HASW69yV3uvzMQLc_cK4",
       "token_type": "Bearer"
     }
   }

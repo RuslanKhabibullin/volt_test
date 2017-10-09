@@ -23,7 +23,7 @@
 
 #### Body
 
-<pre>email=elian.heathcote%40schuppepowlowski.io&password=</pre>
+<pre>email=jaquelin.hintz%40beckerlangosh.io&password=</pre>
 
 ### Response
 
