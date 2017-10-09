@@ -11,6 +11,7 @@ Rails.application.routes.draw do
         resources :comments, only: %i[create index]
       end
       post "reports/by_author" => "reports#by_author"
+      resource :avatar, only: %i[create show]
     end
   end
 end

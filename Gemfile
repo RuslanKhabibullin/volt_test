@@ -30,12 +30,16 @@ gem "pundit"
 gem "slim-rails"
 gem "faker"
 gem "factory_girl_rails"
+gem "carrierwave", "~> 1.0"
+gem "mini_magick"
+gem "fog-aws"
 
 group :test do
   gem "database_cleaner"
   gem "email_spec"
   gem "shoulda-matchers"
   gem "json_spec"
+  gem "webmock"
 end
 
 group :development, :test do
