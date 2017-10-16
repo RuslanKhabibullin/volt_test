@@ -1,24 +1,5 @@
-# README
+# VOLT-TEST-PART2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Build Status](https://semaphoreci.com/api/v1/khabibullin_ruslan/volt_test-2/branches/part-2/badge.svg)](https://semaphoreci.com/khabibullin_ruslan/volt_test-2)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Heroku link](https://shrouded-hollows-97602.herokuapp.com)

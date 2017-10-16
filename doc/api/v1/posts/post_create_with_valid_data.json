@@ -1,0 +1,50 @@
+{
+  "resource": "Posts",
+  "resource_explanation": null,
+  "http_method": "POST",
+  "route": "api/v1/posts",
+  "description": "Post create with valid data",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "title",
+      "description": "Post title"
+    },
+    {
+      "required": true,
+      "name": "body",
+      "description": "Post body"
+    },
+    {
+      "name": "published_at",
+      "description": "Published at datetime(default - current datetime)"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "api/v1/posts",
+      "request_body": "title=Quia+blanditiis+excepturi+ducimus+ipsam+deserunt+nihil.&body=Test",
+      "request_headers": {
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"data\": {\n    \"id\": \"198\",\n    \"type\": \"posts\",\n    \"attributes\": {\n      \"title\": \"Quia blanditiis excepturi ducimus ipsam deserunt nihil.\",\n      \"body\": \"Test\",\n      \"published_at\": \"2017-10-09T20:27:12.469Z\",\n      \"author_nickname\": \"Shany Ratke\"\n    }\n  }\n}",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null,
+      "request_headers_text": null,
+      "request_query_parameters_text": null,
+      "response_headers_text": "Content-Type: application/json; charset=utf-8"
+    }
+  ]
+}

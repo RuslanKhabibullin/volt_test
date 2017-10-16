@@ -3,6 +3,8 @@ Devise.setup do |config|
 
   require "devise/orm/active_record"
 
+  config.secret_key = ENV.fetch("DEVISE_SECRET_KEY", "default_key")
+
   config.case_insensitive_keys = [:email]
 
   config.strip_whitespace_keys = [:email]
@@ -22,4 +24,9 @@ Devise.setup do |config|
   config.reset_password_within = 6.hours
 
   config.sign_out_via = :delete
+
+  config.warden do |manager|
+    manager.strategies.add(:jwt, Devise::Strategies::JsonWebToken)
+    manager.default_strategies(scope: :user).unshift :jwt
+  end
 end

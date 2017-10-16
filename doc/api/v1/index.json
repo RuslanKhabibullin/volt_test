@@ -1,0 +1,145 @@
+{
+  "resources": [
+    {
+      "name": "Avatar",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Avatar create",
+          "link": "avatar/avatar_create.json",
+          "groups": "all",
+          "route": "api/v1/avatar",
+          "method": "post"
+        }
+      ]
+    },
+    {
+      "name": "Comments",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Comment create with valid data",
+          "link": "comments/comment_create_with_valid_data.json",
+          "groups": "all",
+          "route": "api/v1/posts/:post_id/comments",
+          "method": "post"
+        },
+        {
+          "description": "Comment create with invalid data",
+          "link": "comments/comment_create_with_invalid_data.json",
+          "groups": "all",
+          "route": "api/v1/posts/:post_id/comments",
+          "method": "post"
+        },
+        {
+          "description": "Get comments",
+          "link": "comments/get_comments.json",
+          "groups": "all",
+          "route": "api/v1/posts/:post_id/comments?page=:page&per_page=:per_page",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "Posts",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Post create with valid data",
+          "link": "posts/post_create_with_valid_data.json",
+          "groups": "all",
+          "route": "api/v1/posts",
+          "method": "post"
+        },
+        {
+          "description": "Post create with invalid data",
+          "link": "posts/post_create_with_invalid_data.json",
+          "groups": "all",
+          "route": "api/v1/posts",
+          "method": "post"
+        },
+        {
+          "description": "Unauthorized user create post",
+          "link": "posts/unauthorized_user_create_post.json",
+          "groups": "all",
+          "route": "api/v1/posts",
+          "method": "post"
+        },
+        {
+          "description": "Get posts",
+          "link": "posts/get_posts.json",
+          "groups": "all",
+          "route": "api/v1/posts?page=:page&per_page=:per_page",
+          "method": "get"
+        },
+        {
+          "description": "Post show",
+          "link": "posts/post_show.json",
+          "groups": "all",
+          "route": "api/v1/posts/:id",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "Reports",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Post create with valid data",
+          "link": "reports/post_create_with_valid_data.json",
+          "groups": "all",
+          "route": "api/v1/reports/by_author",
+          "method": "post"
+        },
+        {
+          "description": "Unauthorized user generate report",
+          "link": "reports/unauthorized_user_generate_report.json",
+          "groups": "all",
+          "route": "api/v1/reports/by_author",
+          "method": "post"
+        }
+      ]
+    },
+    {
+      "name": "Sessions",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Sign in with valid password",
+          "link": "sessions/sign_in_with_valid_password.json",
+          "groups": "all",
+          "route": "api/v1/sessions.json",
+          "method": "post"
+        },
+        {
+          "description": "Sign in with invalid password",
+          "link": "sessions/sign_in_with_invalid_password.json",
+          "groups": "all",
+          "route": "api/v1/sessions.json",
+          "method": "post"
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Registration with valid data",
+          "link": "users/registration_with_valid_data.json",
+          "groups": "all",
+          "route": "api/v1/users",
+          "method": "post"
+        },
+        {
+          "description": "Registration with invalid data",
+          "link": "users/registration_with_invalid_data.json",
+          "groups": "all",
+          "route": "api/v1/users",
+          "method": "post"
+        }
+      ]
+    }
+  ]
+}

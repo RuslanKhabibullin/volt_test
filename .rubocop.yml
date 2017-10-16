@@ -76,3 +76,15 @@ RSpec/LetSetup:
 
 RSpec/HookArgument:
   Enabled: false
+
+RSpec/VerifiedDoubles:
+  Enabled: false
+
+RSpec/MessageSpies:
+  Enabled: false
+
+Capybara/FeatureMethods:
+  Enabled: false
+
+Naming:
+  Enabled: false

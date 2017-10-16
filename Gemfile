@@ -10,43 +10,55 @@ gem "pg"
 gem "puma", "~> 3.7"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", ">= 1.3.0"
-
 gem "coffee-rails", "~> 4.2"
-gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
+gem "turbolinks", "~> 5"
+gem "kaminari", git: "https://github.com/amatsuda/kaminari"
 
 # Other gems
 
+gem "arel"
 gem "rack-cors"
 gem "active_model_serializers"
 gem "decent_exposure"
 gem "devise"
 gem "dotenv-rails"
+gem "delayed_job_active_record"
 gem "interactor"
 gem "jwt"
 gem "pundit"
+gem "jquery-rails"
+gem "bootstrap-sass"
+gem "slim-rails"
+gem "skim"
+gem "faker"
+gem "factory_girl_rails"
+gem "carrierwave", "~> 1.0"
+gem "mini_magick"
+gem "fog-aws"
 
 group :test do
   gem "database_cleaner"
   gem "email_spec"
-  gem "shoulda-matchers", require: false
+  gem "shoulda-matchers"
   gem "json_spec"
+  gem "webmock"
+  gem "capybara", "~> 2.13"
+  gem "capybara-webkit"
 end
 
 group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
   gem "brakeman", require: false
   gem "bundler-audit", require: false
-  gem "capybara", "~> 2.13"
-  gem "selenium-webdriver"
-  gem "faker"
-  gem "responders"
-  gem "factory_girl_rails"
   gem "rspec-rails"
   gem "rspec-its"
   gem "rubocop", require: false
   gem "rubocop-rspec", require: false
   gem "rspec_api_documentation"
+  gem "coffeelint"
+  gem "scss_lint", require: false
+  gem "slim_lint", require: false
 end
 
 group :development do

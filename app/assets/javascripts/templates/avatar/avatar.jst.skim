@@ -1,0 +1,2 @@
+h3 Your avatar:
+img src="#{@src}" class="avatar-image"

@@ -1,3 +1,19 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  scope defaults: { format: :json } do
+    devise_for :users, only: []
+  end
+
+  namespace :api, defaults: { format: "json" } do
+    namespace :v1 do
+      resources :users, only: :create
+      resources :sessions, only: :create
+      resources :posts, only: %i[create index show] do
+        resources :comments, only: %i[create index]
+      end
+      post "reports/by_author" => "reports#by_author"
+      resource :avatar, only: :create
+    end
+  end
+
+  root "static_pages#home"
 end

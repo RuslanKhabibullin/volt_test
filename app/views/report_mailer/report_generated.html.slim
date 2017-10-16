@@ -1,0 +1,14 @@
+h1 Report
+table
+  tbody
+    tr
+      th Email
+      th Nickname
+      th Posts count
+      th Comments count
+  - @report_collection.each do |report|
+    tr
+      th #{report.email}
+      th #{report.nickname}
+      th #{(report.posts_count || 0)}
+      th #{(report.comments_count || 0)}

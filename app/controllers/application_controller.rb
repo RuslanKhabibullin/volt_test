@@ -1,8 +1,18 @@
-require "application_responder"
+class ApplicationController < ActionController::API
+  include Authentication
 
-class ApplicationController < ActionController::Base
-  self.responder = ApplicationResponder
   respond_to :json
 
-  protect_from_forgery with: :exception
+  protected
+
+  def render_errors_for(entity)
+    render json: { errors: entity.errors.full_messages }, status: :unprocessable_entity
+  end
+
+  def add_pagination_headers_info_for(collection)
+    headers.merge!(
+      "Pagination-Pages" => collection.total_pages,
+      "Pagination-Entries" => collection.total_count
+    )
+  end
 end
