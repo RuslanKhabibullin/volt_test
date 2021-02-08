@@ -33,7 +33,7 @@ gem "slim-rails"
 gem "skim"
 gem "faker"
 gem "factory_girl_rails"
-gem "carrierwave", "~> 1.0"
+gem "carrierwave", "~> 1.3"
 gem "mini_magick"
 gem "fog-aws"
 
